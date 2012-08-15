@@ -1,0 +1,90 @@
+body, html {
+	background:#fff;
+	height:auto;
+	width:auto;
+	overflow:auto;
+}
+body {
+	padding:20px;
+}
+p {
+	padding:0;
+	margin:0;
+	margin-bottom:5px;
+}
+#embedContainer h2 {
+	padding:0 0 3px 0;
+	font-size:13px;
+	border-bottom:1px solid #E5E5E5;
+	margin:10px 0;
+}
+#embedContainer h2:first-child {
+	margin-top:0;
+}
+#embedArea {
+	width:auto;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#embedArea td {
+	vertical-align:top;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#embedContainer .embedSizing {
+	margin-right:20px;
+	display:block;
+}
+#embedContainer .embedSizing .item {
+	display:block;
+	margin-bottom:6px;
+	cursor:pointer;
+}
+#embedContainer .embedSizing .item input {
+	border:1px solid #E5E5E5;
+}
+#embedContainer .embedSizing .item .itemIcon {
+	display:inline-block;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	background:url(../images/ui/uiSprite.png) no-repeat -144px 0;
+	_background:url(../images/ui/uiSprite.gif) no-repeat -144px 0;
+}
+#embedContainer .embedSizing .selected .itemIcon {
+	background:url(../images/ui/uiSprite.png) no-repeat -128px 0;
+	_background:url(../images/ui/uiSprite.gif) no-repeat -128px 0;
+}
+#embedContainer .embedSizing .item ul {
+	margin-top:6px;
+}
+#embedContainer .embedSizing .item ul li {
+	margin-left:21px;
+	margin-bottom:6px;
+}
+#embedContainer .textAreaCon {
+	margin:10px 0;
+}
+#embedContainer #inputEmbed {
+	line-height:16px;
+	width:100%;
+}
+#embedContainer #mapPreviewResize {
+	width:700px;
+	height:525px;
+	top:0 !important;
+	left:0 !important;
+}
+#embedContainer #mapPreviewResize.resizing {
+	border:1px dashed #E5E5E5;
+	background:#ccc;
+}
+#embedContainer #map {
+	width:700px;
+	height:525px;
+	min-width:inherit !important;
+	top:0;
+	left:0;
+}

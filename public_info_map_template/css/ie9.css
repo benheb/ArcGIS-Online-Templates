@@ -1,0 +1,3 @@
+#topMenuBar, .iconInput, .mapInput, .mapButton, .buttonSelected, .mapSubmit, .ui-dialog-buttonset button, .mapSubmitSelected, .slideMenu .mapInput, #settingsPanel .mapInput, .slideMenu .iconInput, .ui-dialog .ui-widget-header, .ui-datepicker .ui-widget-header, .formStyle .ui-slider, .formStyle .ui-slider .ui-slider-handle, #map .pimPopup .titlePane {
+	 filter: none !important;	
+}

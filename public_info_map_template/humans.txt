@@ -1,0 +1,36 @@
+/* TEAM */
+
+	Jeff Archer
+	Senior Technical Engineer
+	Contact: jarcher@esri.com
+
+	Bronwyn Agrios
+	Technical Engineer/Product Owner
+	Contact: bagrios@esri.com
+	
+	Karsten Thorson
+	Graphic Designer/User Interface Designer
+	Contact: kthorson@esri.com
+
+	Matt Driscoll
+	Web Developer
+	Contact: mdriscoll@esri.com
+	
+	Corey Hadden
+	
+	Clark Inada
+
+	Brenda Martinez
+	Content Owner
+
+
+/* SITE */
+
+	Last update: 2012/04/20
+	Language: English
+	Doctype: HTML5
+	Tools: ArcGIS Javascript API, Dojo framework, jQuery, jQuery UI, Modernizr, Bit.ly
+	IDE: Coda, Aptana Studio, and Notepad++
+	
+	
+	

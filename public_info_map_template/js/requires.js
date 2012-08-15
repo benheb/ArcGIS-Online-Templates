@@ -1,0 +1,19 @@
+// Required Dojo Plugins
+dojo.require("esri.map");
+dojo.require("esri.layers.osm");
+dojo.require("esri.tasks.locator");
+dojo.require("esri.layers.FeatureLayer");
+dojo.require("esri.dijit.Scalebar");
+dojo.require("esri.dijit.Popup");
+dojo.require("esri.dijit.editing.TemplatePicker-all");
+dojo.require("dojo.store.Memory");
+dojo.require("dijit.dijit");
+dojo.require("dijit.layout.BorderContainer");
+dojo.require("dijit.layout.ContentPane");
+dojo.require("esri.virtualearth.VETiledLayer");
+dojo.require("dijit.TitlePane");
+dojo.require("esri.dijit.BasemapGallery");
+dojo.require("esri.arcgis.utils");
+dojo.require("dojo.DeferredList");
+dojo.require("esri.layers.agsdynamic");
+dojo.require("esri.dijit.Legend");

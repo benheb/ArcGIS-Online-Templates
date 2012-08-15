@@ -1,0 +1,45 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	#zoomSliderDiv, #shareLogo {
+	    display:none;
+	}
+}
+@media only screen and (max-width: 1020px) {
+	#aboutMap{
+	    display:none;
+	}
+}
+@media only screen and (max-width: 940px) {
+	#topMenuBar, #mapcon, #map {
+	    min-width:640px;
+	}
+	#shareLogo, #aboutMap {
+	    display:none;
+	}
+}
+@media only screen and (max-width: 720px) {
+	#topMenuBar, #mapcon, #map {
+	    min-width:480px;
+	}
+	#shareMap, #shareControls, #zoomSliderDiv, #locateBox , #placesCon, #placesMenu, #aboutMap{
+	    display:none !important;
+	}
+	#shareLogo {
+	    display:none !important;
+	}
+	.slideMenu{
+		left:auto !important;
+		right: 12px !important;
+	}
+}
+@media only screen and (max-width: 570px) {
+	#topMenuBar, #mapcon, #map {
+	    min-width:350px;
+	}
+	#shareMap, #shareControls, #zoomSliderDiv, #locateBox, #placesCon, #placesMenu, #aboutMap {
+	    display:none !important;
+	}
+	.slideMenu{
+		left:auto  !important;
+		right: 12px !important;
+	}
+}
